@@ -166,7 +166,7 @@ const Page = () => {
             Metamask complete setup
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
+            href="https://www.youtube.com/watch?v=eRYDefnf7jQ&t=7s"
             title="OpenSea"
             thumbnail={thumbOpenSea}
           >

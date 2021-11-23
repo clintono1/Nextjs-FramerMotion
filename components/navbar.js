@@ -107,20 +107,23 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                       aria-label="Options"
                     />
                     <MenuList>
-                      <NextLink href="/" passHref>
-                        <MenuItem as={Link}>About</MenuItem>
-                      </NextLink>
+                        <MenuItem 
+                        as={Link}
+                        href=""
+                        >
+                          Mint
+                        </MenuItem>
                       <NextLink href="/roadmaps" passHref>
                         <MenuItem as={Link}>Roadmap</MenuItem>
                       </NextLink>
                       <NextLink href="/mint" passHref>
-                        <MenuItem as={Link}>Mint</MenuItem>
+                        <MenuItem as={Link}>Team</MenuItem>
                       </NextLink>
                       <MenuItem
                         as={Link}
                         href=""
                       >
-                        View OpenSea
+                       OpenSea
                       </MenuItem>
                     </MenuList>
                   </Menu>
