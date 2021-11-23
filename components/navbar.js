@@ -70,23 +70,17 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                 flexGrow={1}
                 mt={{ base: 4, md: 0 }}
               >
-                <LinkItem href="/Mint" path={path}>
+                <LinkItem href="/mint" path={path}>
                   Mint
                 </LinkItem>
                 <LinkItem href="/roadmaps" path={path}>
                   Roadmap
                 </LinkItem>
-                {/* <LinkItem
-                  _target="_blank"
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                  path={path}
-                  display="inline-flex"
-                  alignItems="center"
-                  style={{ gap: 4 }}
-                  pl={2}
+                <LinkItem
+                  href="/openseapage"
                 >
                   OpenSea
-                </LinkItem> */}
+                </LinkItem>
                 <LinkItem href="/team" path={path}>
                   Team
                 </LinkItem>
@@ -116,12 +110,12 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                       <NextLink href="/roadmaps" passHref>
                         <MenuItem as={Link}>Roadmap</MenuItem>
                       </NextLink>
-                      <NextLink href="/mint" passHref>
+                      <NextLink href="/team" passHref>
                         <MenuItem as={Link}>Team</MenuItem>
                       </NextLink>
                       <MenuItem
                         as={Link}
-                        href=""
+                        href="/openseapage"
                       >
                        OpenSea
                       </MenuItem>

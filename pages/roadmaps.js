@@ -15,7 +15,7 @@ const Roadmaps = () => (
       <SimpleGrid columns={[1, 1, 3]} gap={3}>
         <Section>
           <WorkGridItem id="phase1" title="0%" thumbnail={greenpug}>
-            Community Building, Growing our soxial presence so future pug holders
+            Community Building, Growing our soxial presence so future PUG holders
             can gain the most value.
           </WorkGridItem>
         </Section>
@@ -26,14 +26,15 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase3" title="20%" thumbnail={redpug}>
-            Giveaways, Early pug adopters and community members gain access to massive giveaways.
-            Monetary prizes, Soxial Pug nfts and more with value of up to $25,000.
+            Giveaways, Early PUG adopters and community members gain access to massive giveaways.
+            We will also launch a scholarship program. Cannot afford a PUG? Make your case to the community
+            get enough support and we will send you one free of charge.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="phase4" title="30%" thumbnail={redpug}>
-            Merch, Members only with limited edition gear.
+            Merch, gear for PUG holders and community members. You can always wear your PUG how you see fit.
           </WorkGridItem>
         </Section>
         <Section>
@@ -63,8 +64,11 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase9" title="100%" thumbnail={redpug}>
-            More giveaways and prizes. It&apos;s always more fun if somebody&apos;s winning.
-          </WorkGridItem>n
+            Soxial Security Club DAPP development initiated.
+            We plan to create an app to serve as your easy to use personal crypto wallet.
+            To hold your PUGS and other NFTs. With basic wallet features and more, like paying 
+            for coffee with PUGBUCKS.
+          </WorkGridItem>
         </Section>
 
 

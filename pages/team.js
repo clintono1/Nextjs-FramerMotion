@@ -48,19 +48,19 @@ const Team = () => {
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 3]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
             id="tba"
             thumbnail={pugbaseimage2}
-            title="idk yet"
+            title="Hashlips"
           >
-            Who else should we credit?
+            Production method inspiration
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="tba" thumbnail={pugbaseimage2} title="tba">
-            tba
+          <WorkGridItem id="tba" thumbnail={pugbaseimage2} title="craftzdog">
+            Website inspiration
           </WorkGridItem>
         </Section>
       </SimpleGrid>
