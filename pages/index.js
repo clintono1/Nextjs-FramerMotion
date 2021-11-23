@@ -70,7 +70,7 @@ const Page = () => {
             Thesis
           </Heading>
           <Paragraph>
-            After years of being a model citzen, I've realized that I can't trust anyone but myself. 
+            After years of being a model citzen, I&apos;ve realized that I can&apos;t trust anyone but myself. 
             I only wish that I could have come to that conclusion sooner.
             The last straw was hearing that after never missing a tax payment,
             social security would run out before I could cash in on my benefits.
@@ -102,15 +102,15 @@ const Page = () => {
             <BioYear>Location:</BioYear>
             To keep the laws of physics and inter dimensional travel intact, our
             pugs live on the Etheruem blockchain as ERC-721 tokens. Transfers
-            aren't always perfect and at times produce pugs with moving traits.
+            aren&apos;t always perfect and at times produce pugs with moving traits.
             Gotta love science!
           </BioSection>
           <BioSection>
             <BioYear>PUG BUCKS:</BioYear>
             Pugs work non stop to fight evil and solve problems in our universe.
-            Our organization rewards its members with "PUGB" tokens that can be
-            redemmed for a set time period. As long as you're an owner of a PUG
-            you're a part of the organization.
+            Our organization rewards its members with &quot;PUGB&quot; tokens that can be
+            redemmed for a set time period. As long as you&apos;re an owner of a PUG
+            you&apos;re a part of the organization.
           </BioSection>
           <BioSection>
             <BioYear>Membership:</BioYear>
