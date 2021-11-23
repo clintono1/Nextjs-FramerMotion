@@ -20,7 +20,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail }) => (
+export const WorkGridItem = ({ children, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
       <LinkBox cursor="pointer">
         <Image

@@ -64,7 +64,7 @@ const Roadmaps = () => (
         <Section>
           <WorkGridItem id="phase9" title="100%" thumbnail={redpug}>
             More giveaways and prizes. It&apos;s always more fun if somebody&apos;s winning.
-          </WorkGridItem>
+          </WorkGridItem>n
         </Section>
 
 
