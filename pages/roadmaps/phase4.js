@@ -13,7 +13,8 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        Depending on the timeframe this can be unlocked sooner than other phase activations.
+        Cannot afford a PUG? Make your case to the community get enough support and we will send you one free of
+        charge. Join the discord for more information on how to apply.
       </P>
     </Container>
   </Layout>

@@ -13,7 +13,9 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        More information coming soon.
+        Utility is our main focus with this project, We have a vision
+        of SOXIAL PUGs to be digital assets for our owners. Our reward tokens will contribute to
+        that goal. An ecosystem where PUG holders, consumers and merchants can benifit from one another.
       </P>
     </Container>
   </Layout>

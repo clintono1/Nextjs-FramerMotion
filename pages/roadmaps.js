@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -15,63 +15,51 @@ const Roadmaps = () => (
       <SimpleGrid columns={[1, 1, 3]} gap={3}>
         <Section>
           <WorkGridItem id="phase1" title="0%" thumbnail={greenpug}>
-            Community Building, Growing our soxial presence so future PUG holders
-            can gain the most value.
+            Community Building. On Discord, Social Media and the nft space.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="phase2" title="10%" thumbnail={redpug}>
-            Double Down, primary and secondary sales to be reinvested into the marketing budget. 
+            Double Down. More PUG promotion and charity donations initiated. 
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="phase3" title="20%" thumbnail={redpug}>
-            Giveaways, Early PUG adopters and community members gain access to massive giveaways.
-            We will also launch a scholarship program. Cannot afford a PUG? Make your case to the community
-            get enough support and we will send you one free of charge.
+            Early Bird Special. Early adopters and community member giveaways initiated.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="phase4" title="30%" thumbnail={redpug}>
-            Merch, gear for PUG holders and community members. You can always wear your PUG how you see fit.
+          <WorkGridItem id="phase4" title="40%" thumbnail={redpug}>
+            Scholarship program. Everyone deserves a chance to own one.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="phase5" title="40%" thumbnail={redpug}>
-            PUGHQ, We will purchase land on decentraland to build our HQ. Owning a pug 
-            is the same as owning a piece of that digital real estate! 
+          <WorkGridItem id="phase5" title="50%" thumbnail={redpug}>
+            Community Fund. 
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="phase6" title="50%" thumbnail={redpug}>
-            Voting Rights, Every pug is created different but treated equally. Members will 
-            have a say in the future of the club. 
+          <WorkGridItem id="phase6" title="75%" thumbnail={redpug}>
+            PUGBUCKS! Utility, Utility, Utility! 
           </WorkGridItem>
         </Section>
 
         <Section delay={0.2}>
-          <WorkGridItem id="phase7" title="70%" thumbnail={redpug}>
-            PUG BUCKS!, Your pugs work hard! Day in and night out. You will be elgible to 
-            claim 25 PUGBUCKS a day for 7 years.
+          <WorkGridItem id="phase7" title="90%" thumbnail={redpug}>
+            SOXIAL PUG HQ. PUGs infiltrating the metaverse.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="phase8" title="85%" thumbnail={redpug}>
-            Community Fund, We want to be your retirement plan. We will be purchasing bitcoin
-            and other cryto assets with primary and secondary sales to back the underlining value of your PUGBUCKS. 
+          <WorkGridItem id="phase8" title="100%" thumbnail={redpug}>
+            The Soxial Security Club App.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="phase9" title="100%" thumbnail={redpug}>
-            Soxial Security Club DAPP development initiated.
-            We plan to create an app to serve as your easy to use personal crypto wallet.
-            To hold your PUGS and other NFTs. With basic wallet features and more, like paying 
-            for coffee with PUGBUCKS.
+          <WorkGridItem id="phase9" title="Burning Functions" thumbnail={redpug}>
+            Burn baby burn.
           </WorkGridItem>
         </Section>
-
-
       </SimpleGrid>
     </Container>
   </Layout>

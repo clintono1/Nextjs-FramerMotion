@@ -14,7 +14,7 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        We are striving to be more then another copy cat ape knock off. Through
+        We are striving to be a blue chip nft that provides value to our owners. Through
         proper branding and marketing Soxial Pugs can become a passive income
         bearing asset. Help us on our journey to reach these goals.
       </P>

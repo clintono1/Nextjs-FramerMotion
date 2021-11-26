@@ -13,7 +13,8 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        More information coming soon.
+        The fund will be used stritcly for the benifit of the club and its members.
+        We plan to purchase and diversify our holdings with other crypto assets and stable coins.
       </P>
     </Container>
   </Layout>
