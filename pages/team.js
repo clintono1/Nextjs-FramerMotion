@@ -4,6 +4,9 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item-nolink'
 import pugbaseimage from '../public/images/pugwhitesuit.png'
 import pugbaseimage2 from '../public/images/pughawaiishirt.png'
+import pugbaseimage3 from '../public/images/cryptobaby.png'
+import pugbaseimage4 from '../public/images/9868.png'
+import pugbaseimage5 from '../public/images/9893.png'
 
 const Team = () => {
   return (
@@ -33,7 +36,7 @@ const Team = () => {
             <WorkGridItem
               id="kyoya"
               title="Cryptobaby"
-              thumbnail={pugbaseimage}
+              thumbnail={pugbaseimage3}
             >
               Public Relations. Super Mixxy
             </WorkGridItem>
@@ -52,14 +55,14 @@ const Team = () => {
         <Section delay={0.3}>
           <WorkGridItem
             id="tba"
-            thumbnail={pugbaseimage2}
+            thumbnail={pugbaseimage5}
             title="Hashlips"
           >
             Production method inspiration
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="tba" thumbnail={pugbaseimage2} title="craftzdog">
+          <WorkGridItem id="tba" thumbnail={pugbaseimage4} title="craftzdog">
             Website inspiration
           </WorkGridItem>
         </Section>
