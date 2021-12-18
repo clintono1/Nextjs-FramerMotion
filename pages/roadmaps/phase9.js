@@ -13,9 +13,9 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        PUG holders are gauranteed the ability to claim 7 PUGBUCKS for up to 7
-        years. Which will have a finite supply. Once our PUG burning function is
-        implemented, PUGs can retire early and claim 1/5th of their benifits.
+        PUG holders are guaranteed the ability to claim 7 PUGBUCKS for up to 7
+        years, which will have a finite supply. Once our PUG burning function is
+        implemented, PUGs can retire early and claim 1/5th of their benefits.
       </P>
     </Container>
   </Layout>

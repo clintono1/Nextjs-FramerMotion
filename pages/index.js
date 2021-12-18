@@ -45,7 +45,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Prof. Frank Pugenstien
             </Heading>
-            <p>Genius inventor, Proffesor at Pawvard University</p>
+            <p>Genius Inventor, Professor at Pawvard University</p>
           </Box>
           <Box
             flexShrink={0}
@@ -60,7 +60,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/pugwhitesuit.png"
+              src="/images/RickPug.png"
               alt="Profile Image"
             />
           </Box>
@@ -69,17 +69,20 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Thesis
           </Heading>
-          <Paragraph>
-            After years of being a model citzen, I&apos;ve realized that I can&apos;t trust anyone but myself. 
+          <Paragraph 
+          
+          >
+            After years of being a model citzen, I&apos;ve realized that no one can guarantee me a 
+            prosperous future but myself. 
             I only wish that I could have come to that conclusion sooner.
-            The last straw was hearing that after never missing a tax payment,
-            social security would run out before I could cash in on my benefits.
-            I need to gather the greatest minds that I know to form an
-            organization powerful enough to protect the Social rights of the
-            people of the metaverse. The
-            Tridyminiumobulator(try-die-mini-uh-mob-you-later) that I built converts
+            According to my calculations the Social Security program will run out before I can even cash in 
+            on my benefits.
+            And so I decided I needed to gather the greatest minds to form an
+            organization that can support the financial freedom of the
+            people of the metaverse. 
+            The Tridyminiumobulator(try-die-mini-uh-mob-you-later) that I built converts
             Etheruem into energy to bring my parallel selves into this world.
-            You can contribute to my research by minting my couterparts.
+            You can contribute to my research by minting my counterparts.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/roadmaps">
@@ -106,16 +109,16 @@ const Page = () => {
             Gotta love science!
           </BioSection>
           <BioSection>
-            <BioYear>PUG BUCKS:</BioYear>
+            <BioYear>$BONES:</BioYear>
             Pugs work non stop to fight evil and solve problems in our universe.
-            Our organization rewards its members with &quot;PUGB&quot; tokens that can be
+            Our organization rewards its members with &quot;$BONES&quot; tokens that can be
             redemmed for a set time period. As long as you&apos;re an owner of a PUG
             you&apos;re a part of the organization.
           </BioSection>
           <BioSection>
             <BioYear>Membership:</BioYear>
-            Owning a pug gives rights to exclusive membership benifits, gaining
-            access to PUG-HQ, being able to claim PUGB and more to come.
+            Owning a pug gives rights to exclusive membership benefits, gaining
+            access to PUG-HQ, being able to claim $BONES and more to come.
           </BioSection>
         </Section>
         <Section delay={0.3}>
@@ -146,7 +149,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.gg/dpyncjnx" target="_blank">
+            <Link href="https://discord.gg/fTSX98z9k9" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

@@ -15,7 +15,7 @@ const Roadmap = () => (
         <StarIcon paddingRight={1.5} />
         We will develop an app that will serve as a wallet to hold
         your PUGs and other NFTs you may own. The App will provide a way to show your PUG for entry to
-        exclusive events, and discounts with vendors connected with the Soxial Security Club.
+        exclusive events and discounts with vendors connected with the Soxial Security Club.
 
       </P>
     </Container>

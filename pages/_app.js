@@ -1,4 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
+import store from "../redux/store";
+import { Provider } from "react-redux";
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
 import theme from '../lib/theme'
@@ -6,7 +8,8 @@ import { AnimatePresence } from 'framer-motion'
 
 function Website({ Component, pageProps, router }) {
     return (
-      <ChakraProvider theme={theme}>
+      <Provider store={store} >
+      <ChakraProvider theme={theme} >
         <Fonts />
         <Layout router={router}>
           <AnimatePresence exitBeforeEnter initial={true}>
@@ -14,6 +17,7 @@ function Website({ Component, pageProps, router }) {
           </AnimatePresence>
         </Layout>
       </ChakraProvider>
+      </Provider>
     )
   }
   

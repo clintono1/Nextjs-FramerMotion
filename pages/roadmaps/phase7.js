@@ -13,7 +13,7 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        Using a percentage of primary sales we will purchase land within
+        Using a percentage of primary sales, we will purchase land within
         decentraland where our headquarters will be located.
       </P>
     </Container>

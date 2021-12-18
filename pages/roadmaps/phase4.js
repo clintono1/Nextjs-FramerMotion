@@ -13,7 +13,7 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        Cannot afford a PUG? Make your case to the community get enough support and we will send you one free of
+        Cannot afford a PUG? Make your case to the community, get enough support, and we will send you one free of
         charge. Join the discord for more information on how to apply.
       </P>
     </Container>

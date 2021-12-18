@@ -13,7 +13,7 @@ const Roadmap = () => (
 
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
-        So many prizes to give away, join our discord to learn more.
+        So many prizes to give away! Join our discord to learn more.
       </P>
     </Container>
   </Layout>

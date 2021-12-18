@@ -1,12 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item-nolink'
 import pugbaseimage from '../public/images/pugwhitesuit.png'
 import pugbaseimage2 from '../public/images/pughawaiishirt.png'
 import pugbaseimage3 from '../public/images/cryptobaby.png'
-import pugbaseimage4 from '../public/images/9868.png'
-import pugbaseimage5 from '../public/images/9893.png'
 
 const Team = () => {
   return (
@@ -17,10 +15,10 @@ const Team = () => {
           <Section>
             <WorkGridItem
               id="kyoya"
-              title="Kyouma Hououin"
+              title="RoyalFlush"
               thumbnail={pugbaseimage}
             >
-              Master programmer. Lover of all things anime.
+              Master Programmer. Lover of all things anime.
             </WorkGridItem>
           </Section>
           <Section>
@@ -29,7 +27,7 @@ const Team = () => {
               title="CSMCHIZO"
               thumbnail={pugbaseimage2}
             >
-              Artistic Extroadinair. Life Of the Party. 
+              Artistic Extraordinaire. Life of the Party. 
             </WorkGridItem>
           </Section>
           <Section>
@@ -38,20 +36,20 @@ const Team = () => {
               title="Cryptobaby"
               thumbnail={pugbaseimage3}
             >
-              Public Relations. Super Mixxy
+              Public Relations. Super mixxy.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
 
-        <Section delay={0.2}>
+        {/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={25} mb={4}>
           Additional Credits
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 3]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 3]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
             id="tba"
@@ -62,11 +60,11 @@ const Team = () => {
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="tba" thumbnail={pugbaseimage4} title="craftzdog">
-            Website inspiration
+          <WorkGridItem id="tba" thumbnail={pugbaseimage4} title="ShoBeatz">
+            T 
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
 
       </Container>
     </Layout>

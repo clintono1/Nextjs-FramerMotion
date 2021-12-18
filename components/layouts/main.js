@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import Navbar from '../navbar.js'
+import Navbar from '../navbar.tsx'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 import VoxelPlanetLoader from '../voxel-planet-loader'
@@ -12,6 +12,7 @@ const LazyVoxelPlanet = dynamic(() => import('../voxel-planet'), {
 
 const Main = ({ children, router }) => {
   return (
+    
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, inital-scale=1" />

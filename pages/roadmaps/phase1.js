@@ -15,7 +15,7 @@ const Roadmap = () => (
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
         We are striving to be a blue chip nft that provides value to our owners. Through
-        proper branding and marketing Soxial Pugs can become a passive income
+        proper branding and marketing, Soxial Pugs can become a passive income
         bearing asset. Help us on our journey to reach these goals.
       </P>
 
@@ -36,7 +36,7 @@ const Roadmap = () => (
         <ListItem>
           <Meta>Giveaways & Challenges</Meta>
           <span>
-            We plan to encourage community engagment with raffles of rare pugs,
+            We plan to encourage community engagment with raffles of rare pugs
             and monetary prizes of up to $25,000!
           </span>
         </ListItem>

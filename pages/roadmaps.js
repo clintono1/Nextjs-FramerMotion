@@ -31,7 +31,7 @@ const Roadmaps = () => (
 
         <Section delay={0.1}>
           <WorkGridItem id="phase4" title="40%" thumbnail={redpug}>
-            Scholarship program. Everyone deserves a chance to own one.
+            Scholarship Program.
           </WorkGridItem>
         </Section>
         <Section>
@@ -41,7 +41,7 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase6" title="75%" thumbnail={redpug}>
-            PUGBUCKS! Utility, Utility, Utility! 
+            $BONES! Utility, Utility, Utility! 
           </WorkGridItem>
         </Section>
 
