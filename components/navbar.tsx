@@ -364,16 +364,16 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={Link} href="">
-                  Mint
-                </MenuItem>
+                <NextLink href="/mint" passHref>
+                  <MenuItem as={Link}>Mint</MenuItem>
+                </NextLink>
                 <NextLink href="/roadmaps" passHref>
                   <MenuItem as={Link}>Roadmap</MenuItem>
                 </NextLink>
                 <NextLink href="/team" passHref>
                   <MenuItem as={Link}>Team</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="/openseapage">
+                <MenuItem as={Link} href="https://opensea.io/collection/soxialpug">
                   OpenSea
                 </MenuItem>
               </MenuList>
