@@ -21,7 +21,8 @@ import Section from '../components/section'
 import {
   IoLogoTwitter,
   IoLogoInstagram,
-  IoLogoDiscord
+  IoLogoDiscord,
+  IoContract
 } from 'react-icons/io5'
 import thumbMetaMask from '../public/images/metamask.png'
 import thumbOpenSea from '../public/images/opensea.png'
@@ -156,6 +157,17 @@ const Page = () => {
                 leftIcon={<Icon as={IoLogoDiscord} />}
               >
                 Discord
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+          <Link href="https://etherscan.io/token/0x30a3eb8f3580eb63081aa8605d828d9c7421577f" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoContract} />}
+              >
+                Smart Contract
               </Button>
             </Link>
           </ListItem>

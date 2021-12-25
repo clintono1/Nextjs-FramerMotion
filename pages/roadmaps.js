@@ -52,7 +52,7 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase8" title="100%" thumbnail={redpug}>
-            The Soxial Security Club App.
+            The Soxial Security Club App. Walk To Earn
           </WorkGridItem>
         </Section>
         <Section>

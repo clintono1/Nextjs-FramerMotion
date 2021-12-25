@@ -6,7 +6,7 @@ import { StarIcon } from '@chakra-ui/icons'
 
 const Roadmap = () => (
   <Layout title="Phase8">
-    <Container>
+    <Container padding={5}>
       <Title>
         Phase Eight <Badge></Badge>
       </Title>
@@ -16,6 +16,12 @@ const Roadmap = () => (
         We will develop an app that will serve as a wallet to hold
         your PUGs and other NFTs you may own. The App will provide a way to show your PUG for entry to
         exclusive events and discounts with vendors connected with the Soxial Security Club.
+
+      </P>
+      <P display="inline" padding={10}>
+        <StarIcon paddingRight={1.5} />
+        Holders can participate in a walk to earn program. Taking thier pugs on walks using augmented reality.
+        Climbing the leaderboards and winning weekly competetions can earn you more reward tokens.
 
       </P>
     </Container>
