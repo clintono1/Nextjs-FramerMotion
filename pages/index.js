@@ -111,15 +111,13 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>$BONES:</BioYear>
-            Pugs work non stop to fight evil and solve problems in our universe.
-            Our organization rewards its members with &quot;$BONES&quot; tokens that can be
-            redemmed for a set time period. As long as you&apos;re an owner of a PUG
-            you&apos;re a part of the organization.
+            The token that will govern our ecosystem as we develop as a community within the metaverse.
+            The walk to earn app developed will be one of many ways holders can accumalate $BONES.
           </BioSection>
           <BioSection>
             <BioYear>Membership:</BioYear>
-            Owning a pug gives rights to exclusive membership benefits, gaining
-            access to PUG-HQ, being able to claim $BONES and more to come.
+            Owning a pug will give rights to other exclusive membership benefits. Like gaining
+            access to PUG-HQ, and professionally designed merch.
           </BioSection>
         </Section>
         <Section delay={0.3}>
@@ -150,7 +148,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.gg/6Hkvbkpd" target="_blank">
+            <Link href="https://discord.gg/CaHWcrxCVS" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

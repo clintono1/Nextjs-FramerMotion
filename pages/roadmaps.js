@@ -11,6 +11,9 @@ const Roadmaps = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Roadmap Activations
       </Heading>
+      <Heading as="h4" fontSize={14} mb={1}>
+        Click each level for more information.
+      </Heading>
 
       <SimpleGrid columns={[1, 1, 3]} gap={3}>
         <Section>
