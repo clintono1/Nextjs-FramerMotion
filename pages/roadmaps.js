@@ -7,7 +7,7 @@ import greenpug from '../public/images/pug-green.png'
 
 const Roadmaps = () => (
   <Layout title="Roadmaps">
-    <Container>
+    <Container maxW = "container.lg">
       <Heading as="h3" fontSize={20} mb={4}>
         Roadmap Activations
       </Heading>
@@ -50,7 +50,7 @@ const Roadmaps = () => (
 
         <Section delay={0.2}>
           <WorkGridItem id="phase7" title="90%" thumbnail={redpug}>
-            SOXIAL PUG HQ. PUGs infiltrating the metaverse.
+            SOXIAL CLUB HQ.
           </WorkGridItem>
         </Section>
         <Section>

@@ -30,7 +30,7 @@ import thumbOpenSea from '../public/images/opensea.png'
 const Page = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW = "container.sm" >
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
@@ -99,7 +99,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>Supply:</BioYear>
-            9,999 programmatically generated and individually unique pugs. Each pug
+            8,888 programmatically generated and individually unique pugs. Each pug
             was created equally, but their different traits make them special.
           </BioSection>
           <BioSection>
@@ -110,9 +110,9 @@ const Page = () => {
             Gotta love science!
           </BioSection>
           <BioSection>
-            <BioYear>$BONES:</BioYear>
-            The token that will govern our ecosystem as we develop as a community within the metaverse.
-            The walk to earn app developed will be one of many ways holders can accumalate $BONES.
+            <BioYear>Soxialverse:</BioYear>
+            Our SoxialPugs are the first to enter the Soxialverse. Be on the lookout for which agents join next.
+            Pug owners will be given priority airdrops and mint privileges for future Soxialverse NFTs. 
           </BioSection>
           <BioSection>
             <BioYear>Membership:</BioYear>
@@ -126,7 +126,7 @@ const Page = () => {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://twitter.com/SoxialPugs" target="_blank">
+            <Link href="https://twitter.com/SoxialSecurity" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -159,7 +159,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-          <Link href="https://etherscan.io/token/0x30a3eb8f3580eb63081aa8605d828d9c7421577f" target="_blank">
+          {/* <Link href="" target="_blank"> */}
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -167,7 +167,7 @@ const Page = () => {
               >
                 Smart Contract
               </Button>
-            </Link>
+            {/* </Link> */}
           </ListItem>
         </List>
         <SimpleGrid columns={[1, 2, 2]} gap={5}>

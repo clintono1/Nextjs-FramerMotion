@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "The Soxial Security Club",
   "SYMBOL": "Soxial Pug",
-  "MAX_SUPPLY": 9999,
+  "MAX_SUPPLY": 8888,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,

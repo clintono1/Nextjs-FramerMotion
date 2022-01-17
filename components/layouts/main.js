@@ -27,7 +27,7 @@ const Main = ({ children, router }) => {
         <title>Soxial Security Club - Homepage</title>
       </Head>
       <Navbar path={router.asPath} />
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="container.xl" pt={10}>
         <LazyVoxelPlanet />
         {children}
         <Footer />
