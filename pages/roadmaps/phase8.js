@@ -21,7 +21,7 @@ const Roadmap = () => (
       <P display="inline" padding={10}>
         <StarIcon paddingRight={1.5} />
         Holders can participate in a walk to earn program. Taking thier pugs on walks using augmented reality.
-        Climbing the leaderboards and winning weekly competetions can earn you more reward tokens.
+        Climbing the leaderboards and winning weekly competitions can earn you more reward tokens.
 
       </P>
     </Container>

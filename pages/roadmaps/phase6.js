@@ -15,7 +15,7 @@ const Roadmap = () => (
         <StarIcon paddingRight={1.5} />
         Utility is our main focus with this project. We have a vision
         for SOXIAL PUGs to be digital assets for our owners. Along with merchandise only holders can obtain, holders will be able to stake thier NFTs to our clothing store. 
-        Our proffessional designers will use your PUG to make the clothes we sell and the owner will make a profit everytime someone buys it.
+        Our professional designers will use your PUG to make the clothes we sell and the owner will make a profit everytime someone buys it.
          </P>
     </Container>
   </Layout>

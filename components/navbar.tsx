@@ -370,10 +370,12 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/team" passHref>
                   <MenuItem as={Link}>Team</MenuItem>
-                </NextLink>
-                <MenuItem as={Link} href="https://opensea.io/collection/soxialpug">
-                  OpenSea
+                </NextLink >
+                <NextLink href="/faqs" passHref>
+                <MenuItem as={Link}>
+                  FAQs
                 </MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
