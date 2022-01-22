@@ -22,7 +22,7 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoDiscord,
-  IoContract
+  // IoContract
 } from 'react-icons/io5'
 import thumbMetaMask from '../public/images/metamask.png'
 import thumbOpenSea from '../public/images/opensea.png'
@@ -148,7 +148,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.gg/fAhPpDGxU6" target="_blank">
+            <NextLink href="/discord">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -156,17 +156,17 @@ const Page = () => {
               >
                 Discord
               </Button>
-            </Link>
+            </NextLink>
           </ListItem>
           <ListItem>
           {/* <Link href="" target="_blank"> */}
-              <Button
+              {/* <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoContract} />}
               >
                 Smart Contract
-              </Button>
+              </Button> */}
             {/* </Link> */}
           </ListItem>
         </List>

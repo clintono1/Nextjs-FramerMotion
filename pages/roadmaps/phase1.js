@@ -29,7 +29,7 @@ const Roadmap = () => (
         <ListItem>
           <Meta>Influencer Marketing</Meta>
           <span>
-            150 Pugs will be reserved for partnerships with influencers. If you think you
+            888 Pugs will be reserved for partnerships with influencers. If you think you
             fit the criteria please reach out to us!
           </span>
         </ListItem>

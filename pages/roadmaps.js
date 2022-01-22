@@ -18,12 +18,12 @@ const Roadmaps = () => (
       <SimpleGrid columns={[1, 1, 3]} gap={3}>
         <Section>
           <WorkGridItem id="phase1" title="0%" thumbnail={greenpug}>
-            Community Building. On Discord, Social Media and the nft space.
+            Community Building.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="phase2" title="10%" thumbnail={redpug}>
-            Double Down. More PUG promotion and charity donations initiated. 
+            Double Down. Increased promotion and charity donations initiated. 
           </WorkGridItem>
         </Section>
         <Section>
@@ -44,7 +44,7 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase6" title="75%" thumbnail={redpug}>
-            $BONES! Utility, Utility, Utility! 
+            MERCH. 
           </WorkGridItem>
         </Section>
 
@@ -55,12 +55,12 @@ const Roadmaps = () => (
         </Section>
         <Section>
           <WorkGridItem id="phase8" title="100%" thumbnail={redpug}>
-            The Soxial Security Club App. Walk To Earn
+            The Soxial Security Club App.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="phase9" title="Burning Functions" thumbnail={redpug}>
-            Burn baby burn.
+          <WorkGridItem id="" title="Phase Two" thumbnail={redpug}>
+            Stay Tuned...
           </WorkGridItem>
         </Section>
       </SimpleGrid>

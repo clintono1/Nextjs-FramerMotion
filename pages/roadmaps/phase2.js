@@ -15,7 +15,7 @@ const Roadmap = () => (
         <StarIcon paddingRight={1.5} />
         Pugs are fun, but they also work hard. We will put a percentage of our initial sale profits and secondary
         sale royalties towards brand recognition and increase the marketing budget.
-        We also plan to donate 10% of sales to animale shelters and rescues.
+        We also plan to donate 10% of sales to animal shelters and rescues.
       </P>
     </Container>
   </Layout>
