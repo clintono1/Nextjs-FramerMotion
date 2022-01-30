@@ -2,7 +2,7 @@ import { Container, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { QuestionIcon } from '@chakra-ui/icons'
+import { LockIcon } from '@chakra-ui/icons'
 import { Meta } from '../components/roadmap'
 
 const Roadmaps = () => (
@@ -17,7 +17,7 @@ const Roadmaps = () => (
   </Heading>
   <Section delay={0.2} > 
           <Heading as="h3" variant="section-title">
-          <QuestionIcon paddingRight={1.5} paddingTop={1} />
+          <LockIcon paddingRight={1.5} paddingTop={1} />
           0%
           </Heading>
           <Meta>Startup</Meta>
@@ -27,7 +27,7 @@ const Roadmaps = () => (
           </Section>      
           <Section delay={0.3} > 
           <Heading as="h3" variant="section-title" paddingTop={5}>
-          <QuestionIcon paddingRight={1.5} paddingTop={1}/>
+          <LockIcon paddingRight={1.5} paddingTop={1}/>
           25%
           </Heading>
           <Meta>Giveaways</Meta>
@@ -37,7 +37,7 @@ const Roadmaps = () => (
           </Section>   
           <Section delay={0.4} > 
           <Heading as="h3" variant="section-title" paddingTop={5}>
-          <QuestionIcon paddingRight={1.5} paddingTop={1}/>
+          <LockIcon paddingRight={1.5} paddingTop={1}/>
           50%
           </Heading>
           <Meta>Community Fund</Meta>
@@ -47,7 +47,7 @@ const Roadmaps = () => (
         </Section>
         <Section delay={0.5} > 
           <Heading as="h3" variant="section-title" paddingTop={5}>
-          <QuestionIcon paddingRight={1.5} paddingTop={1}/>
+          <LockIcon paddingRight={1.5} paddingTop={1}/>
           75%
           </Heading>
           <Meta>Charity donation</Meta>
@@ -57,7 +57,7 @@ const Roadmaps = () => (
         </Section>
         <Section delay={0.5} > 
           <Heading as="h3" variant="section-title" paddingTop={5}>
-          <QuestionIcon paddingRight={1.5} paddingTop={1}/>
+          <LockIcon paddingRight={1.5} paddingTop={1}/>
           The Soxialverse
           </Heading>
           <Meta>100%</Meta>
