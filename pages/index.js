@@ -120,6 +120,40 @@ const Page = () => {
             access to PUG-HQ, and professionally designed merch.
           </BioSection>
         </Section>
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            The Soxial Games
+          </Heading>
+          <Paragraph 
+          
+          >
+            Participate in our interactive twitter guessing game meant to stimulate organic community growth and fun.
+          </Paragraph>
+          <BioSection>
+            <BioYear>Rules:</BioYear>
+            The rules are simple. To participate you must be following us on twitter. Guess the location of the buried treasure. Participating gives you one point and correct answers win double points.
+          </BioSection>
+          <BioSection>
+          <BioYear>How-To-Play:</BioYear>
+            Look out for our posts tagged #soxialgames. Commenting with your wallet address and answer will qualify as a valid response. 
+           </BioSection>
+           <BioSection>
+          <BioYear>Whitelist:</BioYear>
+            Climb the leaderboards by participating. The higher up you are the higher the chance of winning a WL spot.
+           </BioSection>
+           <BioSection>
+          <BioYear>Why:</BioYear>
+            Our club is dedicated to putting the community first. If we can add value or fun to your day even by just a little bit then we are doing something right. 
+           </BioSection>
+          {/* <Box align="center" my={4}>
+            <NextLink href="/">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
+                LeaderBoards
+              </Button>
+            </NextLink>
+          </Box> */}
+        </Section>
+
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Official Links & Soxials

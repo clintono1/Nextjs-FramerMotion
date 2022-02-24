@@ -267,7 +267,7 @@ const Navbar = props => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
-           ml={250}
+           ml={170}
         >
           <LinkItem 
           _target="_blank"
@@ -282,6 +282,11 @@ const Navbar = props => {
 
           <LinkItem 
           _target="_blank"
+          href="/soxialgames" path={path}>
+            The Soxial Games
+          </LinkItem>
+          <LinkItem 
+          _target="_blank"
           href="/faqs" path={path}>
             FAQs
           </LinkItem>
@@ -294,8 +299,8 @@ const Navbar = props => {
 
           <LinkItem
           _target="_blank"
-          href="/gallery" path={path}>
-            Gallery
+          href="/whitelist" path={path}>
+            Whitelist
           </LinkItem>
 
           {/* <Box
@@ -368,12 +373,20 @@ const Navbar = props => {
                 <NextLink href="/roadmaps" passHref>
                   <MenuItem as={Link}>Roadmap</MenuItem>
                 </NextLink>
+                <NextLink href="/soxialgames" passHref>
+                  <MenuItem as={Link}>The Soxial Games</MenuItem>
+                </NextLink>
                 <NextLink href="/team" passHref>
                   <MenuItem as={Link}>Team</MenuItem>
                 </NextLink >
                 <NextLink href="/faqs" passHref>
                 <MenuItem as={Link}>
                   FAQs
+                </MenuItem>
+                </NextLink>
+                <NextLink href="/whitelist" passHref>
+                <MenuItem as={Link}>
+                  Whitelist
                 </MenuItem>
                 </NextLink>
               </MenuList>
