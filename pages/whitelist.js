@@ -23,6 +23,15 @@ const Page = () => {
           mb={6}
           align="center"
         >
+          Participate in our Soxial Games to win a whitelist spot.
+        </Box>
+        <Box
+          borderRadius="lg"
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          p={3}
+          mb={6}
+          align="center"
+        >
           Use &quot;CMD + F&quot; or &quot;CTRL + F&quot; to search for your wallet address on the
           list below.
         </Box>
