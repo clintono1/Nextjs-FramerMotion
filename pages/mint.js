@@ -21,8 +21,7 @@ const Page = () => {
         >
           <p>
             {' '}
-            The minting station will be made available once a mint date has been
-            anounced.{' '}
+            PRE-SALE: March 25th At 5PM EST {' '}
           </p>
           {/* <Heading size="md" mb={6}>
             WhiteList Only
