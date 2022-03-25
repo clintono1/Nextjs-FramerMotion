@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 8888,
   "WEI_COST": 0,
   "DISPLAY_COST": 0.0,
-  "GAS_LIMIT": 285000,
+  "GAS_LIMIT": 80000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/soxialpug",
   "SHOW_BACKGROUND": true
