@@ -70,7 +70,7 @@ import {
         .then(receipt => {
           console.log(receipt)
           setFeedback(
-            `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+            `WOW, this ${CONFIG.NFT_NAME} is now yours! go visit Opensea.io to view it.`
           )
           setClaimingNft(false)
           dispatch(fetchData(blockchain.account))
@@ -129,13 +129,8 @@ import {
             align="center"
             justifyContent="center"
           >
-            <p>
-              {' '}
-              The minting station will be made available once a mint date has been
-              anounced.{' '}
-            </p>
             <Heading size="md" mb={6}>
-              WhiteList Only
+              Mint Now
             </Heading>
             <Heading mb={2}>
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}

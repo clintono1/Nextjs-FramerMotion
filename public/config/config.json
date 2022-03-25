@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x30a3Eb8f3580Eb63081AA8605D828D9C7421577F",
-  "SCAN_LINK": "https://etherscan.io/token/0x30a3eb8f3580eb63081aa8605d828d9c7421577f",
+  "CONTRACT_ADDRESS": "0x2979335B7AA942D16A1899f0A91f39A827aa6363",
+  "SCAN_LINK": "https://etherscan.io/address/0x2979335B7AA942D16A1899f0A91f39A827aa6363",
   "NETWORK": {
     "NAME": "Etheruem",
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "The Soxial Security Club",
-  "SYMBOL": "Soxial Pug",
+  "NFT_NAME": "Soxial Pug",
+  "SYMBOL": "SOXIAL PUG",
   "MAX_SUPPLY": 8888,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.05,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/soxialpug",
   "SHOW_BACKGROUND": true
 }
