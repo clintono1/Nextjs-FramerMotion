@@ -299,8 +299,8 @@ const Navbar = props => {
 
           <LinkItem
           _target="_blank"
-          href="/whitelist" path={path}>
-            Whitelist
+          href="https://www.canva.com/design/DAE7KNhdZ3I/view" path={path}>
+            Whitepaper
           </LinkItem>
 
           {/* <Box
